@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Other Menu Elements Text -->
+    <string name="button_undo">⎌</string>
+    <string name="app_name">Bloom-FrogsAndToads</string>
+
+    <!-- Toolbar Help Menu -->
+    <string name="menu_help">Help</string>
+    <string name="button_instructions">Instructions</string>
+    <string name="button_solution">Solution</string>
+
+    <!-- Toolbar Settings Menu -->
+    <string name="menu_settings">Settings</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_3x3">3 x 3</string>
+    <string name="button_5x5">5 x 5</string>
+    <string name="button_7x7">7 x 7</string>
+    <string name="button_9x9">9 x 9</string>
+
+    <!-- Titles -->
+    <string name="title_help">Frogs and Toads</string>
+    <string name="title_victory">Puzzel Solved!</string>
+
+    <!-- Messages -->
+    <string name="message_no_moves">No valid moves! Undo one or more moves to continue.</string>
+    <string name="message_victory">Congratulations! You solved the puzzle by putting the frogs and toads on the opposite side.</string>
+    <string name="message_failed_undo">Cannot undo.</string>
+    <string name="message_failed_toggle">Invalid space. Try tapping a different space.</string>
+    <string name="message_help">
+        Tap on either a frog (F) or a toad (T) to move it into an empty space.
+        Toads can move right or up into the empty space.
+        Frogs can move left or down into the empty space.
+        Frogs can hop over toads into the empty space.
+        Toads can hop over frogs into the empty space.
+        If the toads and frogs are in the opposite position, then the game is won.
+        If there are no legal moves, then the game will display a message.
+        Moves can be undo multiple times to the start of the game.
+        The undo button is located at the lower right corner.
+    </string>
+    <string name="message_saved">Game Saved!</string>
+
+    <!-- Game Space Text -->
+    <string name="game_space">button_template</string>
+    <string name="toad_space">T</string>
+    <string name="frog_space">F</string>
+    <string name="empty_space">-</string>
+
+    <!-- Image Descriptions -->
+    <string name="img_description_button_undo">Undo Button</string>
+    <string name="key_game">game</string>
+    <string name="key_rows">rows</string>
+    <string name="key_cols">cols</string>
+    <string name="message_out_of_steps">No more steps!</string>
+
+
+</resources>

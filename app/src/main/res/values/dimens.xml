@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Board Space Dimensions  -->
+    <dimen name="space_text_size">42sp</dimen>
+    <dimen name="space_padding">5sp</dimen>
+
+    <!-- Game Board Dimensions -->
+    <dimen name="game_board_padding">5dp</dimen>
+
+    <!-- Fab Dimensions -->
+    <dimen name="fab_margin">64dp</dimen>
+    <dimen name="fab_border_width">0dp</dimen>
+
+    <!-- Buttons and Counter Sizes-->
+    <dimen name="counter_text_size">30sp</dimen>
+    <dimen name="button_text_size">25sp</dimen>
+
+</resources>

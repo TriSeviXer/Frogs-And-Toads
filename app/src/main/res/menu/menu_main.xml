@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.lockhaven.bloom_frogsandtoads.MainActivity">
+
+    <!-- Settings Menu -->
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="99"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <!-- Save Button -->
+            <item
+                android:id="@+id/button_save"
+                android:title="Save"/>
+
+            <!-- Reset Button -->
+            <item
+                android:id="@+id/button_reset"
+                android:title="@string/button_reset"/>
+
+            <!-- Resize Button -->
+            <item
+                android:id="@+id/button_resize"
+                android:title="Resize">
+                <menu>
+                    <item
+                        android:id="@+id/button_3x3"
+                        android:title="@string/button_3x3"/>
+                    <item
+                        android:id="@+id/button_5x5"
+                        android:title="@string/button_5x5"/>
+                    <item
+                        android:id="@+id/button_7x7"
+                        android:title="@string/button_7x7"/>
+                    <item
+                        android:id="@+id/button_9x9"
+                        android:title="@string/button_9x9"/>
+                </menu>
+            </item>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/menu_help"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom">
+        <menu>
+            <!-- Help Button -->
+            <item
+                android:id="@+id/button_help"
+                android:title="@string/button_instructions"/>
+
+            <!-- Solution Button -->
+            <item
+                android:id="@+id/button_solution"
+                android:title="@string/button_solution"/>
+        </menu>
+    </item>
+
+</menu>
